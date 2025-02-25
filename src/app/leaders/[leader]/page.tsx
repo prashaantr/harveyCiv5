@@ -67,7 +67,7 @@ export default async function LeaderPage({ params }: { params: { leader: string 
             <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">Unique Abilities</h2>
             <ul className="list-disc text-sm sm:text-lg text-gray-700">
               {leaderData.abilities.map((ability: string) => (
-                <li key={ability} className="mt-1">{ability}</li>
+                <p key={ability} className="mt-1">{ability}</p>
               ))}
             </ul>
           </div>
