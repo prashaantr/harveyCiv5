@@ -1,4 +1,4 @@
-import { getData } from "../../../../lib/getData";
+import { getData } from "@/lib/getData";
 import { linkEntities } from "@/lib/linkEntities";
 import Link from "next/link";
 

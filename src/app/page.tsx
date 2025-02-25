@@ -42,7 +42,7 @@ export default async function Home() {
 
   // Apply entity linking to page content
   const description1 = linkEntities(
-    "Welcome to Prashaant's comprehensive guide to mastering Sid Meier's Civilization V, a 4X turn-based strategy game that redefines the iconic series with new ways to engage in world domination."
+    "Welcome to Prashaant's comprehensive guide to mastering Sid Meier's Civilization aX turn-based strategy game that redefines the iconic series with new ways to engage in world domination."
   );
   const description2 = linkEntities(
     "Lead a civilization from prehistoric times into the future on a procedurally generated map, achieving victory through research, exploration, diplomacy, expansion, economic development, government, and military conquest."
@@ -66,7 +66,7 @@ export default async function Home() {
           width="100%"
           height="500"
           className="sm:h-400"
-          src="https://www.youtube.com/embed/MGOdJMNN2b0?si=8888888888888888"
+          src="https://www.youtube.com/embed/MGOdJMNN2b0?autoplay=1&si=8888888888888888"
           title="Civilization V Guide"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

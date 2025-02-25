@@ -9,10 +9,10 @@ export default async function Leaders() {
     <div className="py-16 px-4 sm:px-8 max-w-6xl mx-auto text-[#222] bg-white font-sans leading-relaxed">
       {/* Page Header */}
       <h1 
-        className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-6 sm:mb-8 text-gray-900 text-center" 
+        className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 sm:mb-8 text-gray-900 text-center" 
         style={{ fontFamily: "Sora, sans-serif" }}
       >
-        👑 Civilization Leaders
+        👑 World Leaders
       </h1>
       <p className="text-base sm:text-lg text-gray-700 text-center mb-8 sm:mb-10">
         Meet the leaders who shaped their civilizations and led them to greatness.

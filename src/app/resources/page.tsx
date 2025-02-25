@@ -22,7 +22,7 @@ export default async function ResourcesPage() {
     <div className="py-16 px-4 sm:px-8 max-w-6xl mx-auto text-[#222] bg-white font-sans leading-relaxed">
       
       {/* 🏞️ Page Title */}
-      <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-8 sm:mb-10 text-gray-900 text-center flex items-center justify-center gap-2 sm:gap-3">
+      <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-8 sm:mb-10 text-gray-900 text-center flex items-center justify-center gap-2 sm:gap-3">
         🏞️ Resources
       </h1>
       <p className="text-base sm:text-lg text-gray-600 text-center mb-8 sm:mb-12">

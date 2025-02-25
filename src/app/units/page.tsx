@@ -25,8 +25,8 @@ export default async function Units() {
     <div className="py-16 px-4 sm:px-8 max-w-6xl mx-auto text-[#222] bg-white font-sans leading-relaxed">
       
       {/* ⚔️ Page Header */}
-      <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-6 sm:mb-8 text-gray-900 text-center flex items-center justify-center gap-2 sm:gap-3">
-        <span className="text-4xl sm:text-5xl">⚔️</span> Units
+      <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 sm:mb-8 text-gray-900 text-center flex items-center justify-center gap-2 sm:gap-3">
+        <span className="text-4xl sm:text-6xl">⚔️</span> Units
       </h1>
       <p className="text-base sm:text-lg text-gray-700 text-center mb-8 sm:mb-10">
         Discover the different units available in Civilization V and their strategic uses.
