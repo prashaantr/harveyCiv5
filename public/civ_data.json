@@ -1,0 +1,265 @@
+{
+  "civilizations": {
+    "Rome": {
+      "leaders": ["Augustus Caesar"],
+      "victory_types": ["Domination", "Science"],
+      "unique_units": ["Legion", "Ballista"],
+      "wonders": ["Colosseum"],
+      "resources": ["Iron"],
+      "city_states": ["Vatican City", "Sidon"],
+      "technologies": ["Engineering"],
+      "government": "Order",
+      "description": "The Roman Empire is known for its military strength and infrastructure. With a legacy of engineering marvels, Rome's roads and aqueducts facilitated the movement of armies and goods, ensuring the empire's dominance. The Roman legal system and governance structures have influenced countless societies throughout history. Rome's cultural achievements, including literature, art, and architecture, continue to inspire the world.",
+      "icon": "🏛️",
+      "tooltip": "Rome: Strong military and infrastructure.",
+      "historical_relations": "Rome's interactions with other civilizations were extensive and varied. The Roman Empire's annexation of Egypt in 30 BC marked a significant cultural and economic integration, as Egypt became a vital province supplying grain to Rome. The Romans admired and adopted many aspects of Greek culture, including art, architecture, and philosophy, which were integrated into Roman society. This cultural exchange was facilitated by the conquests of Alexander the Great, which had spread Greek culture across the Mediterranean. Rome's military campaigns also brought it into contact with the Germanic tribes, the Parthians, and the Carthaginians, each of which left a lasting impact on Roman military and political strategies."
+    },
+    "Egypt": {
+      "leaders": ["Ramesses II"],
+      "victory_types": ["Cultural", "Diplomatic"],
+      "unique_units": ["War Chariot"],
+      "wonders": ["Pyramids"],
+      "resources": ["Gold"],
+      "city_states": ["Kyzyl", "Jerusalem"],
+      "technologies": ["Masonry"],
+      "government": "Freedom",
+      "description": "Egypt excels in wonder-building and cultural advancements. The civilization's strategic location at the crossroads of Africa, Asia, and Europe made it a hub for trade and cultural exchange. The Nile River provided fertile land for agriculture, supporting a thriving society. Egyptian art and architecture, characterized by monumental structures and intricate hieroglyphs, reflect a deep connection to spirituality and the afterlife.",
+      "icon": "🕌",
+      "tooltip": "Egypt: Master of wonders and culture.",
+      "historical_relations": "Egypt's history is deeply intertwined with that of Greece and Rome. The Ptolemaic dynasty, which ruled Egypt after the conquests of Alexander the Great, was of Greek origin and fostered a rich cultural blend of Greek and Egyptian traditions. This period saw the flourishing of Alexandria as a center of learning and culture. Egypt's strategic location made it a crossroads for trade and cultural exchange between Africa, Asia, and Europe. The eventual Roman annexation of Egypt brought it into the Roman sphere, where it played a crucial role in the empire's economy. Throughout its history, Egypt maintained complex relationships with neighboring Nubia and the Near Eastern civilizations, influencing and being influenced by them in terms of trade, warfare, and culture."
+    },
+    "Greece": {
+      "leaders": ["Alexander the Great"],
+      "victory_types": ["Diplomatic", "Domination"],
+      "unique_units": ["Hoplite", "Companion Cavalry"],
+      "wonders": ["Oracle"],
+      "resources": ["Silver"],
+      "city_states": ["Zurich", "Geneva"],
+      "technologies": ["Philosophy"],
+      "government": "Freedom",
+      "description": "Greece leverages strong city-state alliances and powerful military. The Greek city-states, each with its own government and culture, were centers of innovation and democracy. Greek philosophy, science, and arts laid the foundations for Western civilization. The conquests of Alexander the Great spread Hellenistic culture across the known world, blending Greek traditions with those of the East.",
+      "icon": "🏺",
+      "tooltip": "Greece: City-state alliances and military prowess.",
+      "historical_relations": "Greece's influence on the ancient world was profound, particularly through the conquests of Alexander the Great, which spread Hellenistic culture across the Mediterranean and into Asia. Greek city-states like Athens and Sparta were known for their unique political systems and military prowess, which often brought them into conflict and cooperation with each other and with other civilizations. The cultural and intellectual achievements of Greece, including philosophy, science, and the arts, were highly influential in the Roman world, which adopted and adapted many Greek ideas. Greece's strategic location also made it a key player in the interactions between Europe and Asia, influencing and being influenced by the Persian Empire and later the Roman Empire."
+    },
+    "America": {
+      "leaders": ["George Washington"],
+      "victory_types": ["Domination", "Science"],
+      "unique_units": ["Minuteman", "B17 Bomber"],
+      "wonders": ["Statue of Liberty"],
+      "resources": ["Oil"],
+      "city_states": ["Quebec City", "Ragusa"],
+      "technologies": ["Democracy"],
+      "government": "Freedom",
+      "description": "America is known for technological advancement and military supremacy. As a nation built on the ideals of freedom and democracy, America has been a beacon of innovation and progress. The country's diverse landscape and abundant resources have fueled its economic growth. America's cultural influence, from music and film to technology and fashion, is felt worldwide.",
+      "icon": "🦅",
+      "tooltip": "America: Technological and military leader.",
+      "historical_relations": "The United States, as a relatively young nation, has played a significant role in global affairs, particularly in the 20th and 21st centuries. Its founding was influenced by Enlightenment ideas from Europe, and it has maintained strong cultural and political ties with European nations. America's involvement in both World Wars and its leadership during the Cold War era established it as a global superpower. The country's technological and cultural exports have had a profound impact worldwide, fostering a global exchange of ideas and innovations. America's relationships with other civilizations have been marked by both cooperation and conflict, as it navigates its role in an increasingly interconnected world."
+    }
+  },
+  "victory_types": {
+    "Domination": {
+      "description": "Capture all original capital cities while maintaining control of your own. This victory type requires a strong military strategy, focusing on building and maintaining a powerful army capable of conquering enemy capitals. Players must balance offense and defense, ensuring their own capital is well-protected while launching strategic attacks on opponents.",
+      "icon": "⚔️",
+      "best_civilizations": ["Rome", "America", "Greece"],
+      "strategies": "Focus on military production and technology that enhances unit strength and mobility. Establish alliances with city-states to gain additional military support. Use espionage to gather intelligence on enemy movements and weaknesses."
+    },
+    "Science": {
+      "description": "Be the first to complete the Apollo Program and build all Spaceship parts. Achieving a Science Victory requires a focus on research and technological advancement. Players must prioritize building research facilities and generating a high level of science output to unlock advanced technologies quickly.",
+      "icon": "🚀",
+      "best_civilizations": ["Rome", "America"],
+      "strategies": "Invest in science buildings and specialists to boost research output. Form research agreements with other civilizations to accelerate technological progress. Protect your cities from espionage to prevent technology theft."
+    },
+    "Cultural": {
+      "description": "Complete 5 Social Policy trees and build the Utopia Project. A Cultural Victory involves spreading your civilization's influence through culture and tourism. Players must focus on generating culture points and attracting tourists by building wonders and cultural landmarks.",
+      "icon": "🎨",
+      "best_civilizations": ["Egypt", "Greece"],
+      "strategies": "Build wonders and cultural buildings to increase culture output. Use great artists, musicians, and writers to create great works that attract tourists. Establish trade routes to increase cultural influence over other civilizations."
+    },
+    "Diplomatic": {
+      "description": "Build the United Nations and win through City-State alliances. This victory type requires strong diplomatic skills and the ability to influence city-states and other civilizations. Players must focus on building a positive reputation and accumulating diplomatic points.",
+      "icon": "🗳️",
+      "best_civilizations": ["Greece", "Egypt"],
+      "strategies": "Invest in city-state alliances by completing quests and providing gifts. Use diplomacy to form alliances and trade agreements with other civilizations. Build wonders that enhance diplomatic influence and provide additional votes in the United Nations."
+    }
+  },
+  "units": {
+    "Legion": {
+      "civilizations": ["Rome"],
+      "type": "Melee",
+      "strength": 17,
+      "description": "A powerful Roman melee unit. The Legion was the backbone of the Roman military, renowned for its discipline and organization. Equipped with advanced armor and weapons, Legions were capable of executing complex battlefield maneuvers. Their ability to construct fortifications and roads made them invaluable in both offensive and defensive operations.",
+      "icon": "⚔️",
+      "historical_context": "The Roman Legion was the backbone of the Roman military, known for its discipline, organization, and innovative tactics. Legions were instrumental in Rome's expansion across Europe, North Africa, and the Middle East.",
+      "strategies": "Use Legions to dominate early to mid-game battles. Their high strength makes them effective against most units of the same era. Pair them with siege units like Ballistae for city assaults."
+    },
+    "Ballista": {
+      "civilizations": ["Rome"],
+      "type": "Siege",
+      "strength": 14,
+      "description": "A Roman siege weapon effective against cities. Ballistae were large crossbow-like devices that launched projectiles with great force. They were used to breach enemy fortifications and provide support to infantry units. The Ballista's precision and power made it a feared weapon on the battlefield.",
+      "icon": "🏹",
+      "historical_context": "Ballistae were ancient missile weapons that launched large projectiles at enemy fortifications. They were crucial in Roman siege warfare, allowing the Romans to breach city walls and fortifications.",
+      "strategies": "Deploy Ballistae alongside melee units to take down city defenses. Protect them from enemy melee units, as they are vulnerable in close combat."
+    },
+    "War Chariot": {
+      "civilizations": ["Egypt"],
+      "type": "Ranged",
+      "strength": 10,
+      "description": "Fast-moving chariot unit for Egypt. The War Chariot was a symbol of Egyptian military prowess, offering speed and mobility on the battlefield. Chariots were used to outmaneuver enemy forces, delivering swift and decisive strikes. Their presence often turned the tide of battle in favor of the Egyptians.",
+      "icon": "🏇",
+      "historical_context": "The War Chariot was a key component of ancient Egyptian military strategy, providing mobility and speed on the battlefield. Chariots were often used to outflank and harass enemy formations.",
+      "strategies": "Utilize War Chariots for hit-and-run tactics. Their speed allows them to strike and retreat before the enemy can respond. Ideal for disrupting enemy lines and targeting vulnerable units."
+    },
+    "Minuteman": {
+      "civilizations": ["America"],
+      "type": "Melee",
+      "strength": 16,
+      "description": "A unique American infantry unit known for its rapid deployment. Minutemen were civilian soldiers ready to fight at a moment's notice during the American Revolutionary War. Their ability to mobilize quickly and adapt to various combat situations made them a formidable force in the fight for independence.",
+      "icon": "🔫",
+      "historical_context": "Minutemen were civilian colonists who independently organized to form well-prepared militia companies during the American Revolutionary War. They were known for being ready at a minute's notice.",
+      "strategies": "Minutemen are versatile units that can quickly respond to threats. Use them to defend key positions or launch surprise attacks on enemy forces."
+    },
+    "B17 Bomber": {
+      "civilizations": ["America"],
+      "type": "Air",
+      "strength": 28,
+      "description": "A powerful American bomber with long-range capabilities. The B17 Bomber, also known as the Flying Fortress, played a crucial role in the Allied bombing campaigns of World War II. Its durability and payload capacity made it a key asset in strategic bombing missions, targeting enemy infrastructure and military installations.",
+      "icon": "✈️",
+      "historical_context": "The B17 Bomber, also known as the Flying Fortress, was a key asset in the Allied bombing campaigns during World War II. Its durability and range made it a formidable force in strategic bombing missions.",
+      "strategies": "Use B17 Bombers to weaken enemy cities and infrastructure from a distance. Pair them with fighter escorts to protect against enemy air defenses."
+    },
+    "Hoplite": {
+      "civilizations": ["Greece"],
+      "type": "Melee",
+      "strength": 13,
+      "description": "A Greek infantry unit known for its phalanx formation. Hoplites were heavily armed soldiers who fought in close formation, providing a strong defensive line against enemy attacks.",
+      "icon": "🛡️",
+      "historical_context": "Hoplites were citizen-soldiers of Ancient Greek city-states, primarily armed with spears and shields. They were known for their discipline and effectiveness in the phalanx formation, which was a key factor in Greek military success.",
+      "strategies": "Use Hoplites to form a strong defensive line. Their strength lies in their ability to hold positions and protect more vulnerable units. Pair them with ranged units for a balanced army composition."
+    },
+    "Companion Cavalry": {
+      "civilizations": ["Greece"],
+      "type": "Cavalry",
+      "strength": 15,
+      "description": "Elite cavalry unit of Alexander the Great's army. Known for their speed and power, Companion Cavalry were used to execute decisive charges and flank enemy formations.",
+      "icon": "🐎",
+      "historical_context": "The Companion Cavalry was the elite cavalry of the Macedonian army under Alexander the Great. They played a crucial role in his conquests, known for their ability to break enemy lines with powerful charges.",
+      "strategies": "Utilize Companion Cavalry for flanking maneuvers and rapid assaults. Their speed allows them to outmaneuver slower units and strike at vulnerable targets. Ideal for disrupting enemy formations and supporting infantry advances."
+    }
+  },
+  "leaders": {
+    "Augustus Caesar": {
+      "civilization": "Rome",
+      "abilities": ["The Glory of Rome"],
+      "description": "Augustus Caesar, the first emperor of Rome, is renowned for his leadership and vision in transforming Rome from a republic to a powerful empire. His reign marked a period of peace and prosperity known as the Pax Romana. Augustus focused on expanding infrastructure, building roads, and establishing a strong central government.",
+      "icon": "🏛️",
+      "tendency": "Augustus tends to focus on infrastructure and expansion, often prioritizing the development of cities and roads to strengthen the empire."
+    },
+    "Ramesses II": {
+      "civilization": "Egypt",
+      "abilities": ["Builder of Monuments"],
+      "description": "Ramesses II, also known as Ramesses the Great, was one of Egypt's most powerful pharaohs. His reign was marked by extensive building projects, including temples and monuments that showcased Egypt's architectural prowess. Ramesses was also a skilled military leader, known for his campaigns that expanded Egypt's influence.",
+      "icon": "🕌",
+      "tendency": "Ramesses tends to prioritize wonder-building and cultural achievements, focusing on monumental architecture and cultural influence."
+    },
+    "Alexander the Great": {
+      "civilization": "Greece",
+      "abilities": ["Hellenistic League"],
+      "description": "Alexander the Great, the king of Macedonia, is celebrated for his unparalleled military conquests that spread Greek culture across three continents. His leadership and strategic brilliance led to the creation of one of the largest empires in history. Alexander's legacy includes the spread of Hellenistic culture and the founding of numerous cities.",
+      "icon": "🏺",
+      "tendency": "Alexander tends to focus on military conquest and expansion, leveraging his strategic prowess to spread Greek culture and influence."
+    },
+    "George Washington": {
+      "civilization": "America",
+      "abilities": ["Manifest Destiny"],
+      "description": "George Washington, the first President of the United States, is revered for his leadership during the American Revolutionary War and his role in shaping the new nation. Washington's vision of expansion and unity laid the foundation for America's growth. His presidency set many precedents for the future governance of the United States.",
+      "icon": "🦅",
+      "tendency": "Washington tends to focus on expansion and unity, often working to strengthen national cohesion and territorial growth."
+    }
+  },
+  "wonders": {
+    "Colosseum": {
+      "civilization": "Rome",
+      "description": "The Colosseum is an iconic symbol of Imperial Rome, known for its massive structure and gladiatorial contests.",
+      "benefits": "Increases happiness and culture, serving as a major tourist attraction.",
+      "historical_context": "Built in 70-80 AD, the Colosseum was used for public spectacles, including gladiator games and dramas based on Classical mythology.",
+      "trivia": "Did you know? The Colosseum could hold up to 80,000 spectators.",
+      "tooltip": "Colosseum: Boosts happiness and culture.",
+      "icon": "🏛️"
+    },
+    "Pyramids": {
+      "civilization": "Egypt",
+      "description": "The Pyramids of Giza are ancient monumental structures that have fascinated historians and tourists alike.",
+      "benefits": "Boosts worker efficiency and provides a cultural legacy.",
+      "historical_context": "Constructed during the Old Kingdom period, the pyramids served as tombs for pharaohs and are a testament to ancient Egyptian engineering.",
+      "trivia": "Fun fact: The Great Pyramid of Giza was the tallest man-made structure in the world for over 3,800 years.",
+      "tooltip": "Pyramids: Enhance worker efficiency.",
+      "icon": "🕌"
+    },
+    "Statue of Liberty": {
+      "civilization": "America",
+      "description": "The Statue of Liberty is a symbol of freedom and democracy, located on Liberty Island in New York Harbor.",
+      "benefits": "Enhances culture and tourism, representing liberty and welcoming immigrants.",
+      "historical_context": "Gifted by France to the United States in 1886, the statue commemorates the centennial of the American Declaration of Independence.",
+      "trivia": "Did you know? The statue's full name is 'Liberty Enlightening the World'.",
+      "tooltip": "Statue of Liberty: Symbol of freedom and democracy.",
+      "icon": "🗽"
+    },
+    "Oracle": {
+      "civilization": "Greece",
+      "description": "The Oracle of Delphi was a revered sanctuary and a major site for the worship of Apollo, known for its prophetic powers.",
+      "benefits": "Increases culture and provides a boost to scientific research.",
+      "historical_context": "The Oracle played a central role in Greek religion and politics, offering guidance to leaders and citizens alike.",
+      "trivia": "Interesting fact: The Oracle was consulted before major decisions, including wars and the founding of colonies.",
+      "tooltip": "Oracle: Boosts culture and science.",
+      "icon": "🏺"
+    }
+  },
+  "resources": {
+    "Iron": {
+      "civilizations": ["Rome", "America"],
+      "description": "Iron is a strategic resource found in hills and mountains. It is essential for crafting powerful military units like swordsmen and legions. Iron is often located in rugged terrains, providing a natural defense advantage.",
+      "historical_context": "Iron has  been a cornerstone of civilization since the Iron Age, around 1200 BC. The Roman Empire, in particular, utilized iron extensively for weapons and infrastructure, contributing to their military dominance.",
+      "uses": "Iron is used to produce a variety of military units and buildings, enhancing both offensive and defensive capabilities.",
+      "buildings": ["Forge", "Ironworks"],
+      "found_in": "Hills, Mountains",
+      "icon": "⛰️",
+      "trivia": "Did you know? The Roman legions were among the first to use iron-tipped weapons extensively, giving them a significant advantage over their enemies.",
+      "tooltip": "Iron: Essential for military units and infrastructure."
+    },
+    "Gold": {
+      "civilizations": ["Egypt", "America"],
+      "description": "Gold is a luxury resource that boosts wealth and trade. Found in river valleys and deserts, it is crucial for economic prosperity and can be traded for other resources or used to rush production.",
+      "historical_context": "Gold has been treasured since ancient times, symbolizing wealth and power. Ancient Egypt was renowned for its gold mines, which funded monumental projects like the pyramids.",
+      "uses": "Gold is used to enhance trade, rush production, and maintain economic stability.",
+      "buildings": ["Market", "Mint"],
+      "found_in": "River Valleys, Deserts",
+      "icon": "🏜️",
+      "trivia": "Fun fact: The ancient Egyptians believed gold was the flesh of the gods, and it was often used in religious artifacts and tombs.",
+      "tooltip": "Gold: Boosts wealth and trade."
+    },
+    "Silver": {
+      "civilizations": ["Greece", "America"],
+      "description": "Silver is a luxury resource enhancing trade and wealth. Typically found in hills and near rivers, it is valued for its beauty and utility in crafting currency and luxury goods.",
+      "historical_context": "Silver played a crucial role in the economy of ancient Greece, where it was used to mint coins that facilitated trade across the Mediterranean.",
+      "uses": "Silver is used to produce currency and luxury goods, boosting trade and wealth.",
+      "buildings": ["Mint", "Bank"],
+      "found_in": "Hills, Near Rivers",
+      "icon": "🏞️",
+      "trivia": "Did you know? The famous Athenian 'owl' coins were made of silver and became a standard currency in the ancient world.",
+      "tooltip": "Silver: Enhances trade and wealth."
+    },
+    "Oil": {
+      "civilizations": ["America", "Rome"],
+      "description": "Oil is a strategic resource crucial for modern units and energy. Found in deserts and offshore, it powers advanced military units and industrial growth, making it a key asset in the modern era.",
+      "historical_context": "Oil became a pivotal resource in the 20th century, driving the industrial revolution and modern warfare. The United States emerged as a leading oil producer, fueling its economic and military power.",
+      "uses": "Oil is used to power modern military units and industrial facilities, essential for maintaining technological superiority.",
+      "buildings": ["Refinery", "Power Plant"],
+      "found_in": "Deserts, Offshore",
+      "icon": "🛢️",
+      "trivia": "Interesting fact: The discovery of oil in Pennsylvania in 1859 marked the beginning of the modern petroleum industry.",
+      "tooltip": "Oil: Powers modern units and industry."
+    }
+  }
+}
