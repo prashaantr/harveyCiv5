@@ -117,7 +117,7 @@ export default async function Home() {
                 </h3>
                 <p className="text-md sm:text-md text-gray-600 mt-1">{data.description.length > 100 ? `${data.description.substring(0,100)}...` : data.description}</p>
               </div>
-              <div className="absolute bg-[#333] text-white text-sm rounded-lg py-2 px-3 right-0 bottom-full mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out shadow-lg">
+              <div className="absolute bg-[#333] text-white text-sm rounded-lg py-2 px-3 right-0 bottom-full mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out shadow-lg hidden sm:block">
                 {data.tooltip}
                 <div className="absolute left-1/2 transform -translate-x-1/2 top-full w-0 h-0 border-t-8 border-t-gray-800 border-x-8 border-x-transparent"></div>
               </div>

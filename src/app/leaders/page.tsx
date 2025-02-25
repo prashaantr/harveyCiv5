@@ -24,7 +24,7 @@ export default async function Leaders() {
           <Link 
             href={`/leaders/${leader}`} 
             key={leader} 
-            className="group"
+            className="group" 
           >
             <div className="relative bg-white p-6 rounded-xl shadow-md border border-gray-300 flex items-start gap-4 hover:shadow-lg transition-transform transform hover:scale-105">
               {/* Leader Icon */}
