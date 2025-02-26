@@ -57,10 +57,10 @@ export default async function CivilizationPage({ params }: { params: { civilizat
           <div>
             <h2 className="text-lg sm:text-xl font-bold text-gray-900">Leaders</h2>
             <p className="text-sm sm:text-md text-gray-400 mb-1">Influential rulers who shaped history.</p>
-            <ul className="list-none">
+            <ul className="list-disc pl-5 mt-1 text-sm sm:text-md text-gray-600">
               {civData.leaders.map((leader: string) => (
                 <li key={leader}>
-                  <Link href={`/leaders/${slugify(leader)}`} className="text-md sm:text-lg text-blue-600 hover:underline">
+                  <Link href={`/leaders/${slugify(leader)}`} className="text-blue-600 hover:underline">
                     {leader}
                   </Link>
                 </li>
@@ -75,10 +75,10 @@ export default async function CivilizationPage({ params }: { params: { civilizat
           <div>
             <h2 className="text-lg sm:text-xl font-bold text-gray-900">Victory Types</h2>
             <p className="text-sm sm:text-md text-gray-400 mb-1">Paths to domination and success.</p>
-            <ul className="list-none flex flex-wrap gap-1">
+            <ul className="list-disc pl-5 mt-1 text-sm sm:text-md text-gray-600">
               {civData.victory_types.map((type: string) => (
                 <li key={type}>
-                  <Link href={`/victory/${slugify(type)}`} className="text-md sm:text-lg text-blue-600 hover:underline">
+                  <Link href={`/victory/${slugify(type)}`} className="text-blue-600 hover:underline">
                     {type}
                   </Link>
                 </li>
@@ -93,10 +93,10 @@ export default async function CivilizationPage({ params }: { params: { civilizat
           <div>
             <h2 className="text-lg sm:text-xl font-bold text-gray-900">Unique Units</h2>
             <p className="text-sm sm:text-md text-gray-400 mb-1">Specialized units that define your army.</p>
-            <ul className="list-none flex flex-wrap gap-1">
+            <ul className="list-disc pl-5 mt-1 text-sm sm:text-md text-gray-600">
               {civData.unique_units.map((unit: string) => (
                 <li key={unit}>
-                  <Link href={`/units/${slugify(unit)}`} className="text-md sm:text-lg text-blue-600 hover:underline">
+                  <Link href={`/units/${slugify(unit)}`} className="text-blue-600 hover:underline">
                     {unit}
                   </Link>
                 </li>
@@ -111,10 +111,10 @@ export default async function CivilizationPage({ params }: { params: { civilizat
           <div>
             <h2 className="text-lg sm:text-xl font-bold text-gray-900">Wonders</h2>
             <p className="text-sm sm:text-md text-gray-400 mb-1">Monuments that define civilizations.</p>
-            <ul className="list-none">
+            <ul className="list-disc pl-5 mt-1 text-sm sm:text-md text-gray-600">
               {civData.wonders.map((wonder: string) => (
                 <li key={wonder}>
-                  <Link href={`/wonders/${slugify(wonder)}`} className="text-md sm:text-lg text-blue-600 hover:underline">
+                  <Link href={`/wonders/${slugify(wonder)}`} className="text-blue-600 hover:underline">
                     {wonder}
                   </Link>
                 </li>
@@ -125,9 +125,12 @@ export default async function CivilizationPage({ params }: { params: { civilizat
       </div>
 
       {/* 📜 Historical Relations */}
-      <div className="mt-6 sm:mt-10 p-6 bg-white rounded-xl shadow-md border border-gray-300">
-        <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 flex items-center gap-1">📜 Historical Relations</h2>
-        <p className="text-sm sm:text-md text-gray-700 leading-relaxed" dangerouslySetInnerHTML={{ __html: linkEntities(civData.historical_relations) }} />
+      <div className="bg-white p-6 rounded-xl shadow-md border border-gray-300 flex items-start gap-4">
+        <span className="text-3xl sm:text-4xl">📜</span>
+        <div>
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900">Historical Relations</h2>
+          <p className="text-sm sm:text-md text-gray-700 leading-relaxed mt-1" dangerouslySetInnerHTML={{ __html: linkEntities(civData.historical_relations) }} />
+        </div>
       </div>
     </div>
   );
