@@ -97,18 +97,21 @@ export default async function ResourcePage({ params }: { params: { resource: str
         </div>
 
         {/* 🏛 Benefiting Civilizations */}
-      <div className="bg-white p-6 rounded-xl shadow-md border border-gray-300 gap-4">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">🏛 Benefiting Civs</h2>
-        <ul className="list-disc pl-10">
-          {resourceData.civilizations.map((civ: string) => (
-            <p key={civ}>
-              <Link href={`/civilizations/${slugify(civ)}`} className="text-blue-600 hover:underline">
-                {civ}
-              </Link>
-            </p>
-          ))}
-        </ul>
-      </div>
+        <div className="bg-white p-6 rounded-xl shadow-md border border-gray-300 flex items-start gap-4">
+          <span className="text-3xl sm:text-4xl">🏛</span>
+          <div>
+            <h2 className="text-lg sm:text-xl font-bold text-gray-900">Benefiting Civs</h2>
+            <ul className="list-disc mt-1 text-sm sm:text-md text-gray-600">
+              {resourceData.civilizations.map((civ: string) => (
+                <ul key={civ}>
+                  <Link href={`/civilizations/${slugify(civ)}`} className="text-blue-600 hover:underline">
+                    {civ}
+                  </Link>
+                </ul>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
 
       

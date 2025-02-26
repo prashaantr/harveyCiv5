@@ -66,7 +66,7 @@ export default async function Home() {
           width="100%"
           height="500"
           className="sm:h-400"
-          src="https://www.youtube.com/embed/MGOdJMNN2b0?autoplay=1&si=8888888888888888"
+          src="https://www.youtube.com/embed/MGOdJMNN2b0?autoplay=1&mute=1&si=8888888888888888"
           title="Civilization V Guide"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

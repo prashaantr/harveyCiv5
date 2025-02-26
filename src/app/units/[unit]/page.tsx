@@ -44,52 +44,58 @@ export default async function UnitPage({ params }: { params: { unit: string } })
       {/* 🔹 Information Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
         
-        {/* 🏹 Unit Type and 💪 Strength */}
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-          {/* 🏹 Unit Type */}
-          <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-200 flex items-start gap-3 sm:gap-4 flex-1">
-            <span className="text-3xl sm:text-4xl">🎖️</span>
-            <div>
-              <h2 className="text-lg sm:text-xl font-bold text-gray-900">Type</h2>
-              <p className="text-2xl sm:text-md text-gray-600">{unitData.type}</p>
-            </div>
+        {/* 🏹 Unit Type */}
+        <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-200 flex items-start gap-3 sm:gap-4">
+          <span className="text-3xl sm:text-4xl">🎖️</span>
+          <div>
+            <h2 className="text-lg sm:text-xl font-bold text-gray-900">Type</h2>
+            <p className="text-2xl sm:text-md text-gray-600">{unitData.type}</p>
           </div>
+        </div>
 
-          {/* 💪 Strength */}
-          <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-200 flex items-start gap-3 sm:gap-4 flex-1">
-            <span className="text-3xl sm:text-4xl">💪</span>
-            <div>
-              <h2 className="text-lg sm:text-xl font-bold text-gray-900">Strength</h2>
-              <p className="text-2xl sm:text-md text-gray-600">{unitData.strength}</p>
-            </div>
+        {/* 💪 Strength */}
+        <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-200 flex items-start gap-3 sm:gap-4">
+          <span className="text-3xl sm:text-4xl">💪</span>
+          <div>
+            <h2 className="text-lg sm:text-xl font-bold text-gray-900">Strength</h2>
+            <p className="text-2xl sm:text-md text-gray-600">{unitData.strength}</p>
           </div>
         </div>
       </div>
 
       {/* 🏛 Used by Civilizations */}
-      <div className="mt-8 sm:mt-12 p-4 sm:p-6 bg-white rounded-xl shadow-sm border border-gray-200">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2 sm:mb-3">🏛 Civilizations</h2>
-        <ul className="list-disc text-lg sm:text-lg">
-          {unitData.civilizations.map((civ: string) => (
-            <p className="text-2xl pl-10 sm:text-md" key={civ}>
-              <Link href={`/civilizations/${slugify(civ)}`} className="text-2xl sm:text-md text-blue-600 hover:underline">
-                {civ}
-              </Link>
-            </p>
-          ))}
-        </ul>
+      <div className="mt-8 sm:mt-12 bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-200 flex items-start gap-3 sm:gap-4">
+        <span className="text-3xl sm:text-4xl">🏛</span>
+        <div>
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900">Civilizations</h2>
+          <ul className="list-disc mt-1 text-lg sm:text-md text-gray-600">
+            {unitData.civilizations.map((civ: string) => (
+              <ul key={civ}>
+                <Link href={`/civilizations/${slugify(civ)}`} className="text-blue-600 hover:underline">
+                  {civ}
+                </Link>
+              </ul>
+            ))}
+          </ul>
+        </div>
       </div>
 
       {/* 📜 Historical Context */}
-      <div className="mt-8 sm:mt-12 p-4 sm:p-6 bg-white rounded-xl shadow-sm border border-gray-200">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2 sm:mb-3">📜 Historical Context</h2>
-        <p className="text-lg sm:text-md text-gray-700">{unitData.historical_context}</p>
+      <div className="mt-8 sm:mt-12 bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-200 flex items-start gap-3 sm:gap-4">
+        <span className="text-3xl sm:text-4xl">📜</span>
+        <div>
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900">Historical Context</h2>
+          <p className="text-lg sm:text-md text-gray-700">{unitData.historical_context}</p>
+        </div>
       </div>
 
       {/* 🗺️ Strategies */}
-      <div className="mt-8 sm:mt-12 p-4 sm:p-6 bg-white rounded-xl shadow-sm border border-gray-200">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2 sm:mb-3">🗺️ Strategies</h2>
-        <p className="text-lg sm:text-md text-gray-700">{unitData.strategies}</p>
+      <div className="mt-8 sm:mt-12 bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-200 flex items-start gap-3 sm:gap-4">
+        <span className="text-3xl sm:text-4xl">🗺️</span>
+        <div>
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900">Strategies</h2>
+          <p className="text-lg sm:text-md text-gray-700">{unitData.strategies}</p>
+        </div>
       </div>
     </div>
   );
